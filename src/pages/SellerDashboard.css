@@ -1,0 +1,122 @@
+.seller-dashboard {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #0ab3f6; /* Sky blue color */
+    color: #fff; /* Text color */
+  }
+  
+  /* SellerDashboard.css */
+
+.seller-dashboard {
+    padding: 20px;
+  }
+  
+  /* Styles for PostPropertyForm */
+  .post-property-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .post-property-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .post-property-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .post-property-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post-property-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .content-container {
+    margin-top: 20px;
+  }
+  .property-list {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .property-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .property-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .property-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-info {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .property-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .property-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .property-actions .edit-button {
+    color: #007bff;
+  }
+  
+  .property-actions .delete-button {
+    color: #dc3545;
+  }
+  
+  .property-actions button:hover {
+    opacity: 0.7;
+  }
+  
